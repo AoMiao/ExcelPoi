@@ -41,6 +41,7 @@ public class ExcelController {
     
     /**
      * 下载excel导入模板
+     * 这里选择excel2003的模板生成(HSSFWorkbook)
      * @param request
      * @param response
      * @throws Exception
