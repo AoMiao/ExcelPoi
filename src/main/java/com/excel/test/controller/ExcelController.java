@@ -132,7 +132,7 @@ public class ExcelController {
          * xlxs:XSSFworkbook
          * 由于下载模板我选用了xls,这里我就不判断了
          */
-        List<List<Object>> list = ImportExcelUtil.read2003Excel(path.toFile(), false, 3, "");//封装excel的内容返回list列表
+        List<List<Object>> list = ImportExcelUtil.read2003Excel(path.toFile(), 3, "");//封装excel的内容返回list列表
         //接下来就是导入的逻辑代码
         list = deleteAllEmptyElement(list);
         for (List<Object> objectList : list) {
