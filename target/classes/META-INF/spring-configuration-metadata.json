@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.excel.test.util.JedisConfig",
+      "name": "",
+      "type": "com.excel.test.util.JedisConfig"
+    }
+  ],
+  "properties": []
+}
